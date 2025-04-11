@@ -483,9 +483,21 @@ class CmdManager(object):
         # ----------------------------------------------------------------------
         message("Checking configuration file.", type="DEBUG")
 
-        CmdManager.config_dir = os.path.join(os.path.expanduser("~"),
-                                             ".gtftk",
-                                             CmdManager.hash)
+        # Try to use the user's home directory first
+        home_dir = os.path.expanduser("~")
+        potential_config_dir = os.path.join(home_dir, ".gtftk", CmdManager.hash)
+
+        # Check if the parent directory (home or '/') is writable
+        # or if the path points to the root directory itself
+        parent_dir = os.path.dirname(potential_config_dir)
+        if parent_dir == '/' or not os.access(parent_dir, os.W_OK):
+             # Fallback to system temporary directory
+             message(f"Home directory '{home_dir}' not suitable or writable for config. Using temporary directory instead.", type="WARNING")
+             base_dir = tempfile.gettempdir()
+             CmdManager.config_dir = os.path.join(base_dir, ".gtftk_temp", CmdManager.hash) # Use a slightly different name like .gtftk_temp
+        else:
+             # Use the home directory path
+             CmdManager.config_dir = potential_config_dir
 
         CmdManager.config_file = os.path.join(CmdManager.config_dir,
                                               "gtftk.cnf")
