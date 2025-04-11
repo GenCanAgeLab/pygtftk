@@ -14,49 +14,49 @@ Step 5/7 : WORKDIR /opt/pygtftk
  ---> Using cache
  ---> 511102149fbe
 Step 6/7 : RUN pip install --no-cache-dir .
- ---> Running in 8bbc17446f67
+ ---> Running in 916c426e10de
 Processing /opt/pygtftk
   Preparing metadata (setup.py): started
   Preparing metadata (setup.py): finished with status 'done'
 Collecting GitPython>=2.1.8
   Downloading GitPython-3.1.44-py3-none-any.whl (207 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 207.6/207.6 kB 10.8 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 207.6/207.6 kB 10.9 MB/s eta 0:00:00
 Collecting biopython>=1.78
   Downloading biopython-1.85-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.2 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 94.9 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 94.8 MB/s eta 0:00:00
 Collecting cffi>=1.10.0
   Downloading cffi-1.17.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (445 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 445.2/445.2 kB 139.5 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 445.2/445.2 kB 146.8 MB/s eta 0:00:00
 Collecting cloudpickle
   Downloading cloudpickle-3.1.1-py3-none-any.whl (20 kB)
 Requirement already satisfied: cython>=0.29.21 in /usr/local/lib/python3.9/site-packages (from pygtftk==1.6.2) (3.0.12)
 Collecting ftputil>=4.0.0
   Downloading ftputil-5.1.0.tar.gz (86 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 86.4/86.4 kB 689.0 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 86.4/86.4 kB 183.0 MB/s eta 0:00:00
   Preparing metadata (setup.py): started
   Preparing metadata (setup.py): finished with status 'done'
 Collecting graphviz
   Downloading graphviz-0.20.3-py3-none-any.whl (47 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 47.1/47.1 kB 545.4 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 47.1/47.1 kB 449.2 MB/s eta 0:00:00
 Collecting matplotlib>=3.3.1
   Downloading matplotlib-3.9.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (8.3 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.3/8.3 MB 118.8 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.3/8.3 MB 118.7 MB/s eta 0:00:00
 Collecting mpmath>=1.1.0
   Downloading mpmath-1.3.0-py3-none-any.whl (536 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 536.2/536.2 kB 123.8 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 536.2/536.2 kB 119.4 MB/s eta 0:00:00
 Collecting nose
   Downloading nose-1.3.7-py3-none-any.whl (154 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 154.7/154.7 kB 6.2 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 154.7/154.7 kB 179.3 MB/s eta 0:00:00
 Requirement already satisfied: numpy>=1.19.1 in /usr/local/lib/python3.9/site-packages (from pygtftk==1.6.2) (2.0.2)
 Collecting pandas>=1.1.2
   Downloading pandas-2.2.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (13.1 MB)
      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.1/13.1 MB 117.9 MB/s eta 0:00:00
 Collecting plotnine>=0.7.1
   Downloading plotnine-0.13.6-py3-none-any.whl (1.3 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 118.7 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 117.9 MB/s eta 0:00:00
 Collecting pybedtools>=0.8.1
   Downloading pybedtools-0.12.0.tar.gz (12.6 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.6/12.6 MB 117.8 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.6/12.6 MB 117.9 MB/s eta 0:00:00
   Installing build dependencies: started
   Installing build dependencies: finished with status 'done'
   Getting requirements to build wheel: started
@@ -65,22 +65,22 @@ Collecting pybedtools>=0.8.1
   Preparing metadata (pyproject.toml): finished with status 'done'
 Collecting pybigwig>=0.3.17
   Downloading pyBigWig-0.3.24-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (182 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 182.8/182.8 kB 274.5 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 182.8/182.8 kB 226.8 MB/s eta 0:00:00
 Collecting pyparsing>=2.2.0
   Downloading pyparsing-3.2.3-py3-none-any.whl (111 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 111.1/111.1 kB 542.2 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 111.1/111.1 kB 536.2 MB/s eta 0:00:00
 Collecting pyyaml
   Downloading PyYAML-6.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (737 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 737.4/737.4 kB 132.6 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 737.4/737.4 kB 138.8 MB/s eta 0:00:00
 Collecting pysam>=0.17.0
   Downloading pysam-0.23.0-cp39-cp39-manylinux_2_28_x86_64.whl (25.2 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 25.2/25.2 MB 118.0 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 25.2/25.2 MB 78.2 MB/s eta 0:00:00
 Collecting pillow<=8.3.2,>=7.0.0
   Downloading Pillow-8.3.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.0 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.0/3.0 MB 119.6 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.0/3.0 MB 116.3 MB/s eta 0:00:00
 Collecting requests>=2.23.0
   Downloading requests-2.32.3-py3-none-any.whl (64 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.9/64.9 kB 642.5 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.9/64.9 kB 639.3 MB/s eta 0:00:00
 Collecting scikit-learn>=0.24
   Downloading scikit_learn-1.6.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (13.5 MB)
      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.5/13.5 MB 117.9 MB/s eta 0:00:00
@@ -89,65 +89,65 @@ Collecting scipy>=1.5.2
      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 38.6/38.6 MB 117.9 MB/s eta 0:00:00
 Collecting seaborn
   Downloading seaborn-0.13.2-py3-none-any.whl (294 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 294.9/294.9 kB 134.4 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 294.9/294.9 kB 191.1 MB/s eta 0:00:00
 Requirement already satisfied: setuptools in /usr/local/lib/python3.9/site-packages (from pygtftk==1.6.2) (58.1.0)
 Collecting billiard>=3.6.4.0
   Downloading billiard-4.2.1-py3-none-any.whl (86 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 86.8/86.8 kB 274.7 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 86.8/86.8 kB 608.8 MB/s eta 0:00:00
 Collecting pycparser
   Downloading pycparser-2.22-py3-none-any.whl (117 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 117.6/117.6 kB 416.0 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 117.6/117.6 kB 402.3 MB/s eta 0:00:00
 Collecting gitdb<5,>=4.0.1
   Downloading gitdb-4.0.12-py3-none-any.whl (62 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.8/62.8 kB 654.9 MB/s eta 0:00:00
-Collecting python-dateutil>=2.7
-  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 229.9/229.9 kB 223.6 MB/s eta 0:00:00
-Collecting packaging>=20.0
-  Downloading packaging-24.2-py3-none-any.whl (65 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 65.5/65.5 kB 706.7 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.8/62.8 kB 611.6 MB/s eta 0:00:00
 Collecting importlib-resources>=3.2.0
   Downloading importlib_resources-6.5.2-py3-none-any.whl (37 kB)
 Collecting cycler>=0.10
   Downloading cycler-0.12.1-py3-none-any.whl (8.3 kB)
-Collecting fonttools>=4.22.0
-  Downloading fonttools-4.57.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.6 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.6/4.6 MB 119.8 MB/s eta 0:00:00
-Collecting kiwisolver>=1.3.1
-  Downloading kiwisolver-1.4.7-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (1.6 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 127.0 MB/s eta 0:00:00
 Collecting contourpy>=1.0.1
   Downloading contourpy-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (321 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 321.9/321.9 kB 153.8 MB/s eta 0:00:00
-Collecting tzdata>=2022.7
-  Downloading tzdata-2025.2-py2.py3-none-any.whl (347 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 347.8/347.8 kB 172.0 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 321.9/321.9 kB 186.4 MB/s eta 0:00:00
+Collecting kiwisolver>=1.3.1
+  Downloading kiwisolver-1.4.7-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (1.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 123.4 MB/s eta 0:00:00
+Collecting fonttools>=4.22.0
+  Downloading fonttools-4.57.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.6/4.6 MB 120.7 MB/s eta 0:00:00
+Collecting python-dateutil>=2.7
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 229.9/229.9 kB 164.9 MB/s eta 0:00:00
+Collecting packaging>=20.0
+  Downloading packaging-24.2-py3-none-any.whl (65 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 65.5/65.5 kB 653.4 MB/s eta 0:00:00
 Collecting pytz>=2020.1
   Downloading pytz-2025.2-py2.py3-none-any.whl (509 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 509.2/509.2 kB 149.8 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 509.2/509.2 kB 145.9 MB/s eta 0:00:00
+Collecting tzdata>=2022.7
+  Downloading tzdata-2025.2-py2.py3-none-any.whl (347 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 347.8/347.8 kB 19.6 MB/s eta 0:00:00
 Collecting statsmodels>=0.14.0
   Downloading statsmodels-0.14.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (10.8 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.8/10.8 MB 117.9 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.8/10.8 MB 117.8 MB/s eta 0:00:00
 Collecting mizani~=0.11.0
   Downloading mizani-0.11.4-py3-none-any.whl (127 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 127.4/127.4 kB 120.4 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 127.4/127.4 kB 125.7 MB/s eta 0:00:00
 Collecting certifi>=2017.4.17
   Downloading certifi-2025.1.31-py3-none-any.whl (166 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 166.4/166.4 kB 339.0 MB/s eta 0:00:00
-Collecting idna<4,>=2.5
-  Downloading idna-3.10-py3-none-any.whl (70 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 70.4/70.4 kB 598.9 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 166.4/166.4 kB 260.6 MB/s eta 0:00:00
 Collecting urllib3<3,>=1.21.1
   Downloading urllib3-2.4.0-py3-none-any.whl (128 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 128.7/128.7 kB 9.7 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 128.7/128.7 kB 305.2 MB/s eta 0:00:00
+Collecting idna<4,>=2.5
+  Downloading idna-3.10-py3-none-any.whl (70 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 70.4/70.4 kB 669.3 MB/s eta 0:00:00
 Collecting charset-normalizer<4,>=2
   Downloading charset_normalizer-3.4.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (146 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 146.2/146.2 kB 559.3 MB/s eta 0:00:00
-Collecting threadpoolctl>=3.1.0
-  Downloading threadpoolctl-3.6.0-py3-none-any.whl (18 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 146.2/146.2 kB 126.6 MB/s eta 0:00:00
 Collecting joblib>=1.2.0
   Downloading joblib-1.4.2-py3-none-any.whl (301 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 301.8/301.8 kB 137.8 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 301.8/301.8 kB 172.3 MB/s eta 0:00:00
+Collecting threadpoolctl>=3.1.0
+  Downloading threadpoolctl-3.6.0-py3-none-any.whl (18 kB)
 Collecting smmap<6,>=3.0.1
   Downloading smmap-5.0.2-py3-none-any.whl (24 kB)
 Collecting zipp>=3.1.0
@@ -156,7 +156,7 @@ Collecting six>=1.5
   Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
 Collecting patsy>=0.5.6
   Downloading patsy-1.0.1-py2.py3-none-any.whl (232 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 232.9/232.9 kB 123.6 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 232.9/232.9 kB 217.5 MB/s eta 0:00:00
 Building wheels for collected packages: pygtftk, ftputil, pybedtools
   Building wheel for pygtftk (setup.py): started
   Building wheel for pygtftk (setup.py): finished with status 'error'
@@ -636,12 +636,12 @@ Building wheels for collected packages: pygtftk, ftputil, pybedtools
 [0m  Running setup.py clean for pygtftk
   Building wheel for ftputil (setup.py): started
   Building wheel for ftputil (setup.py): finished with status 'done'
-  Created wheel for ftputil: filename=ftputil-5.1.0-py3-none-any.whl size=50813 sha256=bc89d9c8b9fbf04e69fae59bcd86ca84a6adfa6820653e2ce9f85940df1d0ff0
-  Stored in directory: /tmp/pip-ephem-wheel-cache-9hxzt8d2/wheels/19/96/bc/290c51cd40255fe6f3ee3ab845207cee1301907864a5a4aba5
+  Created wheel for ftputil: filename=ftputil-5.1.0-py3-none-any.whl size=50813 sha256=62ab9ce0a2a7665049e4fefdfdec90aebbbb7d4c1fe7dab6e0622892512f11b6
+  Stored in directory: /tmp/pip-ephem-wheel-cache-boaf5fzr/wheels/19/96/bc/290c51cd40255fe6f3ee3ab845207cee1301907864a5a4aba5
   Building wheel for pybedtools (pyproject.toml): started
   Building wheel for pybedtools (pyproject.toml): finished with status 'done'
-  Created wheel for pybedtools: filename=pybedtools-0.12.0-cp39-cp39-linux_x86_64.whl size=14588717 sha256=4415712445423dcd8a6932572a72374a2ceae368627dcaee5bb7b862e0f5f746
-  Stored in directory: /tmp/pip-ephem-wheel-cache-9hxzt8d2/wheels/a9/bb/a3/562f2a017ce0de5054e557cded3813ffc4c95800985d2cc010
+  Created wheel for pybedtools: filename=pybedtools-0.12.0-cp39-cp39-linux_x86_64.whl size=14588715 sha256=c6f0321783fb34780e6b6d20a9cabade2dd377d38a89611a14342330d2369983
+  Stored in directory: /tmp/pip-ephem-wheel-cache-boaf5fzr/wheels/a9/bb/a3/562f2a017ce0de5054e557cded3813ffc4c95800985d2cc010
 Successfully built ftputil pybedtools
 Failed to build pygtftk
 Installing collected packages: pytz, nose, mpmath, zipp, urllib3, tzdata, threadpoolctl, smmap, six, scipy, pyyaml, pysam, pyparsing, pycparser, pybigwig, pillow, patsy, packaging, kiwisolver, joblib, idna, graphviz, ftputil, fonttools, cycler, contourpy, cloudpickle, charset-normalizer, certifi, biopython, billiard, scikit-learn, requests, python-dateutil, importlib-resources, gitdb, cffi, pandas, matplotlib, GitPython, statsmodels, seaborn, pybedtools, mizani, plotnine, pygtftk
