@@ -204,7 +204,8 @@ cython_ologram_3 = Extension(name='pygtftk.stats.intersect.read_bed.read_bed_as_
                              sources=["pygtftk/stats/intersect/read_bed/read_bed_as_list.pyx",
                                       "pygtftk/stats/intersect/read_bed/exclude.cpp"],  # Include custom Cpp code
                              extra_compile_args=extra_comp_cython, extra_link_args=extra_link_cython,
-                             include_dirs=[np.get_include()],
+                             include_dirs=[np.get_include(),
+                                           'pygtftk/stats/intersect/read_bed'], # Add directory of exclude.cpp,
                              language='c++')
 
 cython_ologram_4 = Extension(name='pygtftk.stats.multiprocessing.multiproc',
