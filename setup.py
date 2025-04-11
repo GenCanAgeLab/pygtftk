@@ -203,11 +203,10 @@ cython_ologram_2 = Extension(name='pygtftk.stats.intersect.overlap.overlap_regio
                              language='c')
 
 cython_ologram_3 = Extension(name='pygtftk.stats.intersect.read_bed.read_bed_as_list',
-                             sources=[os.path.join(setup_dir, "pygtftk/stats/intersect/read_bed/read_bed_as_list.pyx"),
-                                      os.path.join(setup_dir, "pygtftk/stats/intersect/read_bed/exclude.cpp")], # Use absolute paths
+                             sources=["pygtftk/stats/intersect/read_bed/read_bed_as_list.pyx",
+                                      "pygtftk/stats/intersect/read_bed/exclude.cpp"],
                              extra_compile_args=extra_comp_cython, extra_link_args=extra_link_cython,
-                             include_dirs=[np.get_include(),
-                                           'pygtftk/stats/intersect/read_bed'], # Keep include_dir fix attempt
+                             include_dirs=[np.get_include()],  # Only numpy include needed here usually
                              language='c++')
 
 cython_ologram_4 = Extension(name='pygtftk.stats.multiprocessing.multiproc',

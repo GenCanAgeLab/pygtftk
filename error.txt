@@ -14,7 +14,7 @@ Step 5/7 : RUN pip install --no-cache-dir -r requirements.txt
  ---> Using cache
  ---> 322a29cbaee8
 Step 6/7 : RUN pip install --no-cache-dir --no-deps .
- ---> Running in 929a793f78f7
+ ---> Running in 1f33a657c0c3
 Processing /opt/pygtftk
   Preparing metadata (setup.py): started
   Preparing metadata (setup.py): finished with status 'done'
@@ -493,9 +493,9 @@ Building wheels for collected packages: pygtftk
       [end of output]
   
   note: This error originates from a subprocess, and is likely not a problem with pip.
+[0m[91m  ERROR: Failed building wheel for pygtftk
 [0m  Running setup.py clean for pygtftk
-[91m  ERROR: Failed building wheel for pygtftk
-[0mFailed to build pygtftk
+Failed to build pygtftk
 Installing collected packages: pygtftk
   Running setup.py install for pygtftk: started
   Running setup.py install for pygtftk: finished with status 'error'
